@@ -1,0 +1,85 @@
+================================================================================
+  Thème Hexo Cactus — déjà présent dans : themes/cactus
+  Source : https://github.com/probberechts/hexo-theme-cactus
+================================================================================
+
+Ce dépôt ne contenait pas encore un site Hexo complet (pas de _config.yml racine,
+pas de package.json). Le thème est installé ; pour voir le site en local, il vous
+faut un projet Hexo valide à la racine (voir section Hexo ci-dessous).
+
+
+--------------------------------------------------------------------------------
+GIT — à exécuter vous-même (exemples)
+--------------------------------------------------------------------------------
+
+  Vérifier les fichiers modifiés / nouveaux :
+    git status
+
+  Ajouter le thème et la note (ajustez les chemins si besoin) :
+    git add themes/cactus
+    git add NOTE-hexo-et-git.txt
+
+  Valider :
+    git commit -m "Ajout du thème Hexo Cactus (themes/cactus)"
+
+  Envoyer vers GitHub :
+    git push
+
+  Pour mettre à jour le thème plus tard avec Git (depuis themes/cactus) :
+    cd themes/cactus
+    git pull
+    cd ../..
+
+  Alternative sans sous-dépôt Git : retélécharger le ZIP sur la page du dépôt
+  GitHub et remplacer le contenu de themes/cactus.
+
+
+--------------------------------------------------------------------------------
+HEXO — site complet + affichage local
+--------------------------------------------------------------------------------
+
+  Prérequis : Node.js et npm installés.
+
+  Si la racine du blog n’est PAS encore un site Hexo (cas actuel) :
+
+    Option A — initialiser Hexo dans un dossier vide, puis y recopier ce thème :
+      1. Créer un dossier temporaire, y lancer : hexo init mon-blog && cd mon-blog
+      2. Copier ce dossier themes/cactus vers mon-blog/themes/cactus
+      3. Fusionner le reste (posts, _config.yml, etc.) selon votre organisation
+
+    Option B — initialiser directement ici (si Hexo accepte le dossier non vide) :
+      hexo init .
+      (Si la commande refuse : retirez ou déplacez temporairement README.md,
+       ou utilisez l’option ad hoc de votre version de Hexo.)
+
+  Une fois un _config.yml à la racine du site Hexo :
+
+    Dans _config.yml, activer le thème :
+      theme: cactus
+
+    (Optionnel) Personnalisation sans modifier le thème : utiliser theme_config
+    dans le _config.yml du site — voir la doc du thème sur GitHub.
+
+  Installer les dépendances du site :
+    npm install
+
+  Générer le site statique :
+    hexo generate
+    (raccourci : hexo g)
+
+  Serveur de prévisualisation local (souvent http://localhost:4000) :
+    hexo server
+    (raccourci : hexo s)
+
+  Générer puis servir en une fois :
+    hexo s -g
+
+
+--------------------------------------------------------------------------------
+Référence
+--------------------------------------------------------------------------------
+
+  Thème Cactus (installation, nav, couleurs, etc.) :
+  https://github.com/probberechts/hexo-theme-cactus
+
+================================================================================
