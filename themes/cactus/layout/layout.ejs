@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
+<% var _htmlLang = page.lang || (Array.isArray(config.language) ? config.language[0] : config.language); _htmlLang = (_htmlLang || '').toString().substring(0, 2); %>
+<html<%= _htmlLang ? " lang=" + _htmlLang : ""%>>
 <%- partial('_partial/head') %>
 <body class="max-width mx-auto px3 <%- theme.direction -%>">
     <% if (is_post()) { %>
       <%- partial('_partial/post/actions_desktop') %>
     <% } %>
     <div class="content index py4 <%= is_home() ? 'h-card' : '' %>">
-        <% if (!is_post()) { %>
-          <%- partial('_partial/header') %>
-        <% } %>
+        <%- partial('_partial/header') %>
         <%- body %>
         <% if (is_post()) { %>
           <%- partial('_partial/post/actions_mobile') %>

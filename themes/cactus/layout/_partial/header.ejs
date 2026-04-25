@@ -1,5 +1,24 @@
 <header id="header">
-  <a class="u-url u-uid" href="<%- url_for("/") %>">
+  <% 
+    var currentPath = (page.path || '').replace(/^\//, '');
+    var cleanPath = currentPath.replace(/^(fr|en)\//, '');
+    if (cleanPath.startsWith('archives/')) {
+      cleanPath = '';
+    }
+    var defaultLang = 'fr';
+    if (Array.isArray(config.language) && config.language[0]) {
+      defaultLang = String(config.language[0]).substring(0, 2);
+    } else if (config.language) {
+      defaultLang = String(config.language).substring(0, 2);
+    }
+    var currentLang = page.lang ? String(page.lang).substring(0, 2) : (currentPath.startsWith('fr/') ? 'fr' : currentPath.startsWith('en/') ? 'en' : defaultLang);
+    function navHref(u) {
+      if (/^https?:\/\//.test(u)) return u;
+      if (u === '/archives/') return '/' + currentLang + '/';
+      return '/' + currentLang + (u === '/' ? '/' : u);
+    }
+  %>
+  <a class="u-url u-uid" href="<%- url_for(navHref('/')) %>">
   <% if (theme.logo && theme.logo.enabled) { %>
     <% if (theme.gravatar && (theme.gravatar.email || theme.gravatar.hash) && theme.logo.gravatar) { %>
       <% if (theme.gravatar.email) { %>
@@ -25,8 +44,13 @@
         <a href="#" aria-label="<%- __('icons.menu') %>"><i class="fa-solid fa-bars fa-2x"></i></a>
       </li>
       <% for (var i in theme.nav) { %><!--
-     --><li><a href="<%- url_for(theme.nav[i]) %>"><%= __('nav.'+i).replace("nav.", "") %></a></li><!--
+     --><li><a href="<%- url_for(navHref(theme.nav[i])) %>"><%= __('nav.'+i).replace("nav.", "") %></a></li><!--
    --><% } %>
+      <li class="lang-switch">
+        <a href="<%- url_for('/fr/' + cleanPath) %>" class="<%= currentLang === 'fr' ? 'is-active' : '' %>">FR</a>
+        <span>/</span>
+        <a href="<%- url_for('/en/' + cleanPath) %>" class="<%= currentLang === 'en' ? 'is-active' : '' %>">EN</a>
+      </li>
     </ul>
   </div>
 </header>

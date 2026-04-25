@@ -33,6 +33,9 @@
               <%- list_categories() %>
             </div>
           </div>
+        <% } else if (page.series_tags && page.series_tags.length) { %>
+          <%- page.content %>
+          <%- partial('_partial/series_tag_list', { page: page }) %>
         <% } else { %>
           <%- page.content %>
         <% } %>

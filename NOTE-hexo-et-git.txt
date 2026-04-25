@@ -30,6 +30,13 @@ GIT — à exécuter vous-même (exemples)
     git pull
     cd ../..
 
+  liste des commits :
+  git log --oneline --decorate --graph --all
+  git log --oneline -n 10
+
+  pas push :
+  git log --oneline @{u}..HEAD
+
   Alternative sans sous-dépôt Git : retélécharger le ZIP sur la page du dépôt
   GitHub et remplacer le contenu de themes/cactus.
 
@@ -73,6 +80,8 @@ HEXO — site complet + affichage local
 
   Générer puis servir en une fois :
     hexo s -g
+
+> hexo new post "en/before"
 
 
 --------------------------------------------------------------------------------

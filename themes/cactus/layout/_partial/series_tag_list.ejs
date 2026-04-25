@@ -1,0 +1,19 @@
+<%
+  var pageLang = page.lang ? String(page.lang).substring(0, 2) : 'fr'
+  var seriesPosts = []
+  site.posts.sort('date', 'desc').each(function (post) {
+    if (post.lang && String(post.lang).substring(0, 2) !== pageLang) return
+    seriesPosts.push(post)
+  })
+%>
+<% if (seriesPosts.length) { %>
+<ul class="series-from-tags">
+  <% seriesPosts.forEach(function (post) { %>
+    <% var excerpt = strip_html(post.excerpt || '').replace(/\s+/g, ' ').trim() %>
+    <% if (excerpt.length > 160) excerpt = excerpt.substring(0, 157) + '…' %>
+    <li>
+      <a href="<%- url_for(post.path) %>"><%= post.title %></a><% if (excerpt) { %> — <%= excerpt %><% } %>
+    </li>
+  <% }) %>
+</ul>
+<% } %>
