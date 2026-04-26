@@ -34,6 +34,6 @@ cover: /images/posts/comete_mini.png
 </div>
 <p>⚠️ Faire le plein d'amitié et de chocolat (Belge), avant l'aventure.</p>
 
-Puis une petite promenade parisienne avant le départ !
+Puis une petite promenade parisienne avec la madre avant le départ !
 <img src="/images/posts/paris_avant_taiwan.jpeg" alt="mamoune" loading="lazy">
 On inspiiire... allez c'est parti !

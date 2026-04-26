@@ -33,8 +33,8 @@ cover: /images/posts/start_pluie.png
   </div>
   <!-- Colonne droite -->
   <div style="flex: 0 0 75%;">
-    <p style="margin:0 0 10px 0;">Il fait moite, chaud, les arbres sont plus denses que le béton. 2 couleurs à l'aquarelle vert foncé et gris de Payne. Une drôle de sensation : l'humidité profonde; bonjour les tropiques. Pas de repères ni les arbres, ni les visages... et la langue c'est du chinois</p>
+    <p style="margin:0 0 10px 0;">Il fait chaud, moite et les arbres ont une densité de béton. Une aquarelle à 2 couleurs : vert humidité profonde et gris de Payne. Bonjour les tropiques. Pas de repères ni les arbres, ni les visages, ni les cafés... et la langue me paraît tellement loin.</p>
     <img src="/images/posts/flexy.png" alt="flexy" loading="lazy">
-    <p>Bon, même si le visuel est parfois douteux, la nourriture est vraiment délicieuse. Et comme moi, les Taïwanais font des exercices d'étirement chelou dans chaque recoin de la ville. Là on est copains !</p>
+    <p>Bon quand même, si le visuel est parfois douteux, la nourriture est vraiment délicieuse. Et dans chaque recoin de cette île, il y a une personne faisant des exercices d'étirement chelou, là on se comprend !</p>
   </div>
 </div>
