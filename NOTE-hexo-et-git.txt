@@ -7,6 +7,48 @@ Ce dépôt ne contenait pas encore un site Hexo complet (pas de _config.yml raci
 pas de package.json). Le thème est installé ; pour voir le site en local, il vous
 faut un projet Hexo valide à la racine (voir section Hexo ci-dessous).
 
+  [MAJ 2026-06 : le site Hexo est désormais en place — _config.yml et package.json
+   existent à la racine. La section "Hexo" plus bas reste utile comme rappel de
+   commandes, mais l'étape "initialiser Hexo" n'est plus nécessaire.]
+
+
+--------------------------------------------------------------------------------
+ORGANISATION DES DOSSIERS (multilingue fr / en) — IMPORTANT
+--------------------------------------------------------------------------------
+
+  Deux choses DIFFÉRENTES, qui se ressemblent mais n'ont rien à voir :
+
+    1. ARTICLES (posts de blog)  →  source/_posts/<langue>/
+         source/_posts/fr/mon-article.md
+         source/_posts/en/my-article.md
+
+    2. PAGES fixes (accueil, "Moi"/About)  →  source/<langue>/
+         source/fr/me/index.md
+         source/en/index.md , source/en/me/index.md
+         (pas de source/fr/index.md : fr est la langue par défaut = accueil racine)
+
+  PIÈGE À ÉVITER (déjà fait une fois) :
+    Hexo ne lit les posts QUE dans source/_posts/ (à la racine de source/).
+    Un dossier source/fr/_posts/ ou source/en/_posts/ N'EST PAS scanné : les
+    articles qu'on y mettrait DISPARAISSENT du site. Ne pas recréer ces dossiers.
+    Le réglage `i18n_dir: :lang` sert seulement à la détection de langue des
+    PAGES, pas à ranger les posts.
+
+  PERMALINKS — automatiques, ne PAS les écrire à la main :
+    _config.yml :  permalink: :lang/:year/:month/:day/:name/
+      :lang  → vient du champ `lang:` de l'en-tête du post
+      :name  → nom du fichier (sans le sous-dossier)
+    Donc chaque post a juste besoin, dans son en-tête, de :
+        lang: fr        (ou en)
+        date: AAAA-MM-JJ HH:MM:SS
+    et l'URL se fabrique seule, ex. fr/2026/06/12/hotspring/.
+    NE PAS remettre de ligne `permalink:` en dur (source d'incohérences).
+
+  CHECKLIST nouveau post :
+    1. fichier .md dans source/_posts/fr/ (ou /en/)
+    2. en-tête avec  title: / lang: / date: / tags: / cover:
+    3. PAS de permalink: (généré automatiquement)
+
 
 --------------------------------------------------------------------------------
 GIT — à exécuter vous-même (exemples)

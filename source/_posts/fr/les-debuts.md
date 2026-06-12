@@ -1,7 +1,6 @@
 ---
 title: Les débuts
 lang: fr
-permalink: fr/2026/04/19/les-debuts/
 date: 2026-04-19 10:00:00
 tags:
   - taipei

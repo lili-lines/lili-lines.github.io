@@ -1,7 +1,6 @@
 ---
 title: Avant le depart
 lang: fr
-permalink: fr/2026/04/13/avant-le-depart/
 date: 2026-04-13 08:00:00
 tags:
   - chronique

@@ -1,7 +1,6 @@
 ---
 title: Before
 lang: en
-permalink: en/2026/04/25/before/
 date: 2026-04-25 13:05:00
 tags:
   - diary

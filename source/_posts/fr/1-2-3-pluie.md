@@ -1,7 +1,6 @@
 ---
 title: 1, 2, 3 pluie
 lang: fr
-permalink: fr/2026/05/12/1-2-3-pluie/
 date: 2026-05-12 12:00:00
 tags:
   - chronique
@@ -20,7 +19,7 @@ Pendant ce temps la, après avoir visité 2-3 cagibis, j'ai enfin trouvé mon ap
 <div style="display: flex; gap: 20px; align-items: center;">
   <div style="flex: 60%;">
     <p><i>Cher journal, devoir gérer ses 30 ans et son anxiété du temps qui passe, tout en étant loin de ce qu'on connaît et de ceux qu'on connaît, c'est pas évident.
-    Aussi, ne pas trouver autour de moi de matière faisant écho à ma vie d'avant Taïwan me donne l'impression troublante qu'elle n'a jamais existé.
+    Aussi, autour de moi rien ne fait écho à ma vie d'avant Taïwan, alors parfois ça me donne l'impression qu'elle n'a jamais existé, c'est désagréable comme sensation.
     <img src="/images/posts/non_madeleine.png" alt="velo" loading="lazy" style="max-width: 70%">
     C'est un peu une non-madeleine de Proust : ne plus trouver dans son quotidien la confirmation de son identité.</i></p>
   </div>
