@@ -4,6 +4,7 @@ lang: fr
 date: 2026-04-13 08:00:00
 tags:
   - chronique
+  - europe
 cover: /images/posts/comete_mini.png
 ---
 
