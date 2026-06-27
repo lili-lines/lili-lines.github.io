@@ -15,8 +15,9 @@ cover: /images/posts/bix4.png
   </div>
   <div style="flex: 50%;">
     <p>Vendre les saucisses de Chez Bix à Kaohsiung ! Bix c'est la rockstar française de la saucisse à Taïwan, je ne pensais pas que c'était possible d'être aussi connue avec des saucisses, mais si apparemment. <br>
-    Le festival français de Kaohsiung c'est un peu un concentré de clichés, mais l'ambiance est trés sympa surtout chez Bix 😁. <br>
-    Le photographe faisant des trucs de photographe avec sa chemise hawaïenne, et ces 2 stagiaires encore un peu vertes. Les vendeurs de vin aussi rouges que leur vin, répétant que le vin du voisin a cuit dans le conteneur pendant le voyage, mais assurent que le leur non 🍷.
+    Le festival français de Kaohsiung c'est une concentration de comment les taiwanais imagine la france, des saucices du vin et le Temps des Cathédrales 😁. <br>
+    Le photographe faisant des trucs de photographe avec sa chemise hawaïenne, et ces 2 stagiaires encore un peu vertes. Les vendeurs de vin aussi rouges que leur vin, répétant que le vin du voisin a cuit dans le conteneur pendant le voyage, mais assurent que le leur non 🍷. <br>
+    Apprendre quelque nom d'oiseau en taiwanais 🍌 ziantian nege ba la !
     </p>
   </div>
 </div>
