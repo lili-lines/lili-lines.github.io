@@ -32,8 +32,8 @@ cover: /images/posts/start_pluie.png
   </div>
   <!-- Colonne droite -->
   <div style="flex: 0 0 75%;">
-    <p style="margin:0 0 10px 0;">Il fait chaud, moite, les arbres sont tellement denses. Tout est vert humidité tropicale et gris de Payne humidité tropicale. À part la solitude, aucun repère. La ville est plutôt brute et les débuts sont plutôt rudes!</p>
+    <p style="margin:0 0 10px 0;">Il fait chaud, moite, les arbres sont tellement denses. Tout est vert humidité tropicale et gris de Payne humidité tropicale. À part la solitude, aucun repère. La ville est plutôt brute et les débuts sont plutôt crus!</p>
     <img src="/images/posts/flexy.png" alt="flexy" loading="lazy">
-    <p>Bon, même si le visuel est parfois douteux, la nourriture est vraiment délicieuse. Et moi qui adore faire des étirements chelous dans les parcs, ici me voilà dans la normalité !</p>
+    <p>Bon, même si le visuel n'est pas au rendez-vous, la nourriture est vraiment délicieuse. Et moi qui adore faire des étirements chelous dans les parcs, ici me voilà dans la normalité !</p>
   </div>
 </div>

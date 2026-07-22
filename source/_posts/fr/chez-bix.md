@@ -14,10 +14,10 @@ cover: /images/posts/bix4.png
     <img src="/images/posts/bix4b.png" alt="bix" loading="lazy" style="width: 100%; display: block;">
   </div>
   <div style="flex: 50%;">
-    <p>Vendre les saucisses de Chez Bix à Kaohsiung ! Bix c'est la rockstar française de la saucisse à Taïwan, je ne pensais pas que c'était possible d'être aussi connue avec des saucisses, mais si apparemment. <br>
-    Le festival français de Kaohsiung c'est une concentration de comment les taïwanais imaginent la France, des saucisses, du vin et le Temps des Cathédrales 😁. <br>
-    Le photographe faisant des trucs de photographe avec sa chemise hawaïenne, et ces 2 stagiaires encore un peu vertes. Les vendeurs de vin aussi rouges que leur vin, répétant que le vin du voisin a cuit dans le conteneur pendant le voyage, mais assurent que le leur non 🍷. <br>
-    Apprendre quelques noms d'oiseaux en taïwanais 🍌 ziantian nege ba la !
+    <p>Vendre les saucisses de Chez Bix, à Kaohsiung ! Bix c'est la rockstar française de la saucisse à Taïwan, je ne pensais pas que c'était possible d'être aussi connu avec une recette de saucisse, mais si apparemment. <br>
+    Le festival français de Kaohsiung c'est une concentration de comment les Taïwanais imaginent la France, des saucisses, du vin, des glaces tricolores et le Temps des Cathédrales 😁. <br>
+    Le photographe faisant des trucs de photographe avec sa chemise hawaïenne, et ses 2 stagiaires encore un peu vertes. Les vendeurs de vin rouges comme leur vin, répétant que le vin du voisin a cuit dans le conteneur pendant le voyage, mais que le leur non 🍷. <br>
+    Apprendre des noms d'oiseaux en taïwanais 🍌 ziantian nege ba la !
     </p>
   </div>
 </div>
