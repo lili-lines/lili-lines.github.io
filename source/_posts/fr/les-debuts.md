@@ -21,7 +21,7 @@ cover: /images/posts/start_pluie.png
   </div>
   <div class="post-media-aside__media">
     <img src="/images/posts/shop_1j.jpeg" alt="shop" loading="lazy" style="max-width: 97.5%; height: auto;">
-    <figcaption>Shop</figcaption>
+    <figcaption>Una tienda</figcaption>
   </div>
 </div>
 
@@ -32,8 +32,8 @@ cover: /images/posts/start_pluie.png
   </div>
   <!-- Colonne droite -->
   <div style="flex: 0 0 75%;">
-    <p style="margin:0 0 10px 0;">Il fait chaud, moite, les arbres sont tellement denses. Tout est vert humidité tropicale et gris de Payne humidité tropicale. À part la solitude, aucun repère. La ville est plutôt brute et les débuts sont plutôt crus!</p>
+    <p style="margin:0 0 10px 0;">Le début n'est pas agréablle, il fait trop chaud, moite, la végétation est tellement dense. Tout est humide vert gris et carré. À part la solitude, aucun repère. La ville est crue !</p>
     <img src="/images/posts/flexy.png" alt="flexy" loading="lazy">
-    <p>Bon, même si le visuel n'est pas au rendez-vous, la nourriture est vraiment délicieuse. Et moi qui adore faire des étirements chelous dans les parcs, ici me voilà dans la normalité !</p>
+    <p>Bon la comida, même si le visuel n'est pas toujours au rendez-vous, le goût lui est délicieux. Et moi qui adore faire des étirements chelous dans les parcs, me voilà au bon endroit !</p>
   </div>
 </div>
